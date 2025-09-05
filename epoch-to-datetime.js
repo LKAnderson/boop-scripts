@@ -21,7 +21,6 @@ function main(state) {
     return;
   }
 
-  // Convert epoch to milliseconds
   var date = new Date(epoch);
   state.fullText = `UTC: ${date.toUTCString()}\nLOCAL: ${date.toString()}`; // Output in ISO format
 }
